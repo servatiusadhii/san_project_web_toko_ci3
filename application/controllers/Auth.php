@@ -48,16 +48,17 @@ class Auth extends CI_Controller
                         redirect('user');
                     }
                 } else {
-                    $this->session->set_flashdata('message', '<div class="alert alert-warning alert-dismissable">
+                    $this->session->set_flashdata('message', '<div class="alert alert-danger alert-dismissable">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        <h4>  <i class="icon fa fa-check-circle"></i> UnSuccessfull!</h4>
+                        <h4>  <i class="fas fa-times-circle"></i> UnSuccessfull!</h4>
                        Password doesnt match account!.
                       </div>');
+                    redirect('auth');
                 }
             } else {
                 $this->session->set_flashdata('message', '<div class="alert alert-warning alert-dismissable">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    <h4>  <i class="icon fa fa-check-circle"></i> Warning!</h4>
+                    <h4>  <i class="fas fa-times-circle"></i> Warning!</h4>
                     Email Doesnt Activation!.
                   </div>');
                 redirect('auth');
@@ -65,7 +66,7 @@ class Auth extends CI_Controller
         } else {
             $this->session->set_flashdata('message', '<div class="alert alert-danger alert-dismissable">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                <h4>  <i class="icon fa fa-check-circle"></i> Failed!</h4>
+                <h4>  <i class="fas fa-times-circle"></i> Failed!</h4>
                 User Not Found!.
               </div>');
             redirect('auth');

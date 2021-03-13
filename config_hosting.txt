@@ -1,0 +1,19 @@
+configure tambahan untuk upload di hosting (000webhost)
+config untuk fitur smtp jika eror:
+1) Buka https://www.google.com/settings/security/lesssecureapps dan Nyalakan fitur ini.
+2) Buka https://accounts.google.com/DisplayUnlockCaptcha dan klik Lanjutkan.
+
+config /database.php
+striction = TRUE,
+
+config tambahan pada auth.php __send email
+'_smtp_auth' => TRUE,
+'send_multipart' => FALSE,
+
+config cpanel:
+nama web : 
+password cpanel : P$fA6)cX556ajSLmCk2N
+
+config database:
+user database : id16369477_root
+password database : XX_5L]fR#V&/\~0N

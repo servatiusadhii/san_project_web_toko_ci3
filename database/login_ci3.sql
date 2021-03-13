@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 13, 2021 at 04:44 AM
+-- Generation Time: Mar 13, 2021 at 05:42 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.14
 
@@ -47,7 +47,7 @@ INSERT INTO `user` (`id`, `name`, `email`, `image`, `password`, `role_id`, `is_a
 (2, 'superadmin01', 'superadmin01@gmail.com', 'superadmin1.jpg', '$2y$10$JBQHhAIcP3Ph66CsLKnlv.InaRNxTEeil828dlyYTZyJdlTPKk/n.', 1, 1, 1614615323),
 (3, 'Anon Visitor', 'anonnonx@gmail.com', 'default.png', '$2y$10$7nnf.0GvYCdej49gx8mufObhlKAgvG00wDDJ03CL.LFzX1O.pwX1m', 2, 1, 1615482411),
 (4, 'Dimas Cloud', 'dimas.xcloud@gmail.com', 'default.png', '$2y$10$W8ouljgRqdp/jqlZuK//IuaBV/0XAGhm/aFkWN8PkAx3q6mwUhvc2', 2, 1, 1615484044),
-(5, 'Tarbaynal Online', 'jhonny.ocnr@gmail.com', 'default.png', '$2y$10$Or.WOMun.ySrL9i0OWIM0.3llUV0ngS./3X4ETAQ1Sl9DpAL9w0ei', 2, 0, 1615564868);
+(5, 'Tarbaynal Online', 'jhonny.ocnr@gmail.com', 'default.png', '$2y$10$Or.WOMun.ySrL9i0OWIM0.3llUV0ngS./3X4ETAQ1Sl9DpAL9w0ei', 2, 1, 1615564868);
 
 -- --------------------------------------------------------
 
@@ -156,17 +156,6 @@ CREATE TABLE `user_token` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `user_token`
---
-
-INSERT INTO `user_token` (`id`, `email`, `token`, `date_created`) VALUES
-(7, 'dimas.xcloud@gmail.com', 'STF8tQZSruw=', 1615484044),
-(8, 'dimas.xcloud@gmail.com', 'UhsW4CfRBMI=', 1615562033),
-(9, 'anonnonx@gmail.com', 'NVSWK/JGkTU=', 1615562238),
-(10, 'anonnonx@gmail.com', 'R0AJRG63KIg=', 1615562865),
-(11, 'jhonny.ocnr@gmail.com', 'EPv69WsteCo=', 1615564868);
-
---
 -- Indexes for dumped tables
 --
 
@@ -244,7 +233,7 @@ ALTER TABLE `user_sub_menu`
 -- AUTO_INCREMENT for table `user_token`
 --
 ALTER TABLE `user_token`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

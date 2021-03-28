@@ -18,7 +18,7 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
+                        <th scope="col">No</th>
                         <th scope="col">Menu</th>
                         <th scope="col">Action</th>
                     </tr>
@@ -30,8 +30,9 @@
                             <th scope="row"><?= $i ?></th>
                             <td><?= $m['menu'] ?></td>
                             <td>
-                                <a href="" class="badge badge-success">Edit</a>
-                                <a href="" class="badge badge-danger">Delete</a>
+                                <a href="" data-toggle="modal" data-target="#editMenuModal<?= $m['id'] ?>" class="badge badge-success"><i class="far fa-fw fa-edit"></i>Edit</a>
+
+                                <a href="<?= base_url('menu/deleteMenu/' . $m['id']) ?>" class="badge badge-danger" onclick="return confirm('Apakah anda yakin untuk menghapus menu <?= $m['menu']; ?> ?')"><i class="far fa-fw fa-trash-alt"></i>Delete</a>
 
                             </td>
                         </tr>
@@ -50,7 +51,38 @@
 </div>
 <!-- End of Main Content -->
 
-<!--Modal-->
+
+<!-- modal for edit / update -->
+
+<?php foreach ($menu as $em) : ?>
+    <div class="modal fade" id="editMenuModal<?= $em['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="editMenuModal<?= $em['id'] ?>" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editMenuModal<?= $em['id'] ?>">Edit Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="<?= base_url('menu/editMenu/' . $em['id']); ?>" method="post">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input type="text" class="form-control" value="<?= $em['menu'] ?>" id="menu" name="menu" readonly>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="menuNew" name="menuNew" placeholder="Enter a new menu name">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<?php endforeach; ?>
+<!--Modal for add-->
 <div class="modal fade" id="newMenuModalLabel" tabindex="-1" role="dialog" aria-labelledby="newMenuModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">

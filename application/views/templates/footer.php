@@ -1,5 +1,5 @@
  <!-- Footer -->
- <footer class="sticky-footer bg-white">
+ <footer class="sticky-footer bg-white" style="background-image: url(<?= base_url('assets/img/gray-bg.jpg') ?>); font-size:medium; font-weight:200;">
      <div class="container my-auto">
          <div class="copyright text-center my-auto">
              <span>Copyright &copy; SAN Website CodeIgniter 3 <?= date('Y') ?></span>

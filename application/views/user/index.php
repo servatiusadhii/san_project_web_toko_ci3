@@ -1,4 +1,5 @@
 <!-- Begin Page Content -->
+
 <div class="container-fluid">
 
     <!-- Page Heading -->
@@ -13,7 +14,7 @@
     <div class="card mb-3 col-lg-6">
         <div class="row no-gutters">
             <div class="col-md-4">
-                <img src="<?= base_url('assets/img/profile/') . $user['image'] ?>" alt="image" class="card-img">
+                <img src="<?= base_url('assets/img/profile/') . $user['image'] ?>" alt="image" class="card-img" style="margin-left: -12px;">
             </div>
             <div class="col-md-8">
                 <div class="card-body">

@@ -1,6 +1,6 @@
 <footer class="sticky-footer bg-white col-lg" style="position: absolute; bottom:0;
    width:100%; font-size:medium; font-weight:200;
-   height:60px; background-image:url(<?= base_url('assets/img/gray-bg.jpg') ?>)">
+   height:60px; background-image:url(<?= base_url('assets/img/gray-bg.jpg') ?>);">
     <div class="container">
         <div class="copyright text-center my-auto">
             <span>Copyright &copy; SAN Website CodeIgniter 3 <?= date('Y') ?></span>

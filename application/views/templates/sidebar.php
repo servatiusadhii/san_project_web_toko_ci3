@@ -2,18 +2,18 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
         <div class="sidebar-brand-icon">
-            <i class="fas fa-fw fa-code"></i>
+            <i class="fab fa-fw fa-shopify"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">CodeIgniter3</div>
+        <div class="sidebar-brand-text mx-3">Toko Online</div>
     </a>
 
     <!-- Divider -->
     <hr class="sidebar-divider" style="padding-bottom: -50%;">
 
     <!--query menu-->
-    <?=
+    <?php
     $role_id = $this->session->userdata('role_id');
     $queryMenu = "SELECT `user_menu`.`id`, `menu`
         FROM `user_menu` JOIN `user_access_menu`
@@ -61,10 +61,15 @@
             Exit
         </div>
         <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('landing/') ?>">
+                <i class="fas fa-fw fa-shopping-basket"></i>
+                <span>Back to Shopping</span></a>
             <a class="nav-link" href="<?= base_url('auth/logout/') ?>" data-toggle="modal" data-target="#logoutModal">
                 <i class="fas fa-fw fa-sign-out-alt"></i>
                 <span>Logout Account</span></a>
+
         </li>
+
 
 
         <!-- Divider -->

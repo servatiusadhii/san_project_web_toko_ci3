@@ -9,7 +9,6 @@
         <div class="col-lg-6">
 
 
-
             <?= $this->session->flashdata('message') ?>
 
             <h5>Role : <?= $role['role'] ?></h5>

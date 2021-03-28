@@ -2,7 +2,7 @@
 <div id="content-wrapper" class="d-flex flex-column">
 
     <!-- Main Content -->
-    <div id="content">
+    <div id="content" style="background-image: url(<?= base_url('assets/img/gray-bg.jpg') ?>)">
 
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
@@ -14,8 +14,17 @@
 
             <!-- Topbar Navbar -->
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown no-arrow py-4">
+                    <i class="fas fa-fw fa-shopping-cart"></i>
+                    <a href="<?= base_url('user/cart/') ?>" class="mt-4">
+                        <?php $keranjang = 'Shopping List: ' . $this->cart->total_items() . ' items' ?>
 
-                <div class="topbar-divider d-none d-sm-block"></div>
+                        <?php echo anchor('carting/detail_keranjang', $keranjang) ?></a>
+
+                </li>
+
+                <div class=" topbar-divider d-none d-sm-block">
+                </div>
 
                 <!-- Nav Item - User Information -->
                 <li class="nav-item dropdown no-arrow">

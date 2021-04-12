@@ -19,13 +19,14 @@
                 <i class="icofont-prestashop" style="font-size: 35px;">&nbsp;Our Product</i>
                  </div>
                  <br>
-
+                 
                  <p>Tokonline ini merupakan salah satu website jual beli online di Indonesia yang perkembangannya cepat dan memiliki tujuan untuk menyelesaikan tugas Praktikum LAB-TI Universitas Gunadarma dan memudahkan setiap pelanggan di Indonesia, agar dapat melakukan aneka transaksi jual beli secara online. 
                      Selain itu kamu dapat menikmati proses pembelian produk lebih mudah dan efisien.<span><b>Yuk cek katalog produk dibawah ini:</b></span></p>
              </div>
-
+            
+             <h6 class="pb-2">Kategori : <?=$category?></h6>
              <div class="row">
-                 <?php foreach ($barang as $brg) : ?>
+                 <?php foreach ($olahraga as $brg) : ?>
                      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                          <div class="member">
                              <img src="<?= base_url('/assets/uploads/') . $brg->gambar ?>" alt="">

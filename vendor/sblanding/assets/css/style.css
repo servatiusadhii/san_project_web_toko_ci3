@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
+  font-weight: bolder;
   text-decoration: none;
 }
 

@@ -2,7 +2,7 @@
  <footer class="sticky-footer bg-white" style="background-image: url(<?= base_url('assets/img/gray-bg.jpg') ?>); font-size:medium; font-weight:200;">
      <div class="container my-auto">
          <div class="copyright text-center my-auto">
-             <span>Copyright &copy; SAN Website CodeIgniter 3 <?= date('Y') ?></span>
+         Copyright © Servatius Adhi | 55417594 | 4IA18 | Website Toko Online <?= date('Y') ?>
          </div>
      </div>
  </footer>

@@ -1,10 +1,15 @@
      <!-- ======= Contact Us Section ======= -->
      <section id="contact" class="contact section-bg">
          <div class="container">
-
+         
              <div class="section-title">
-                 <h2>Contact Us</h2>
-                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+             
+                <div class="subtitle">
+                <i class="icofont-headphone-alt" style="font-size: 35px;">&nbsp;TokoBantuan</i>
+                 </div>
+                 <br>
+                 <p>Kamu punya pertanyaan, laporan, kritik, ataupun saran? Tokonline ini sangat senang jika bisa membantu. Kamu bisa menghubungi tim TokoBantuan. 
+                 Jangan lupa attach dokumen pendukung seperti bukti transaksi, pembayaran, atau snap error untuk mempercepat respons dari kami. <span><b>Atau kamu bisa menghubungi melalui form di bawah ini:</b></span></p><br>
              </div>
 
              <div class="row">
@@ -12,12 +17,13 @@
                  <div class="col-lg-4 col-md-6">
                      <div class="contact-about">
                          <h3>Toko Online</h3>
-                         <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                         <p>Tokonline ini merupakan salah satu website jual beli online di Indonesia yang perkembangannya terhitung cepat dan memiliki tujuan untuk menyelesaikan tugas Praktikum LAB-TI Universitas Gunadarma dan memudahkan setiap pelanggan di Indonesia</p>
                          <div class="social-links">
-                             <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-                             <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                             <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-                             <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+                             
+                             <a href="https://www.instagram.com/servatiusadhii/" target="blank" class="instagram"><i class="icofont-instagram"></i></a>
+                             <a href="https://github.com/servatiusadhii" target="blank" class="github"><i class="icofont-github"></i></a>
+
+                             
                          </div>
                      </div>
                  </div>
@@ -26,7 +32,7 @@
                      <div class="info">
                          <div>
                              <i class="icofont-google-map"></i>
-                             <p>A108 Adam Street<br>New York, NY 535022</p>
+                             <p>Bekasi, Jakarta Timur<br>Indonesia</p>
                          </div>
 
                          <div>
@@ -85,7 +91,7 @@
      <footer id="footer">
          <div class="container">
              <div class="copyright">
-                 Copyright © SAN Website CodeIgniter 3 <?= date('Y') ?>
+                 Copyright © Servatius Adhi | 55417594 | 4IA18 | Website Toko Online <?= date('Y') ?>
              </div>
 
          </div>

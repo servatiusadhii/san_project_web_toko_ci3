@@ -59,10 +59,9 @@
         		<select class="form-control" name="kategori">
               <option>---</option>
               <option>Elektronik</option>
-              <option>Pakaian Pria</option>
-              <option>Pakaian Wanita</option>
+              <option>Accessories</option>
               <option>Pakaian Anak</option>
-              <option>Peralatan Olahraga</option>  
+              <option>Olahraga</option>  
             </select>
         	</div>
         	<div class="form-group">

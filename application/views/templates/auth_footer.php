@@ -3,7 +3,7 @@
    height:60px; background-image:url(<?= base_url('assets/img/gray-bg.jpg') ?>);">
     <div class="container">
         <div class="copyright text-center my-auto">
-            <span>Copyright &copy; SAN Website CodeIgniter 3 <?= date('Y') ?></span>
+        Copyright © Servatius Adhi | 55417594 | 4IA18 | Website Toko Online <?= date('Y') ?>
         </div>
     </div>
 </footer>

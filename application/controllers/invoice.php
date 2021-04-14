@@ -40,6 +40,8 @@ class Invoice extends CI_Controller
 		$data['pesanan'] = $this->model_invoice->ambil_id_pesanan($id_invoice);
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 		$data['role'] = $this->db->get('user_role')->result_array();
+		$data['title'] = 'Invoice Track';
+		
 		$this->load->view('templates/header', $data);
         $this->load->view('templates/sidebar', $data);
         $this->load->view('templates/topbar', $data);

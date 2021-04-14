@@ -35,5 +35,6 @@
 
 	</table>
 
-	<a href="<?php echo base_url('admin/invoice/index') ?>"><div class="btn btn-sm btn-primary">Kembali</div></a>
+	<a href="<?php echo base_url('/invoice') ?>"><div class="btn btn-sm btn-primary float-right ml-3">Kembali</div></a>
+	<a href="#"><div class="btn btn-sm btn-success float-right">Cetak</div></a>
 </div>

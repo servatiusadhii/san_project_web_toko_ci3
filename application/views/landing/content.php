@@ -1,12 +1,15 @@
 <!-- ======= Hero Section ======= -->
  <section id="hero">
      <div class="hero-container">
-         <h1>Welcome to Toko Online</h1>
-         <h2>Toko Online merupakan sebuah tempat yang menunjang suatu proses pembelian barang melalui internet<br>
+         <h1 style="margin-top: -80px;"><marquee>~Welcome to Toko Online~</marquee></h1>
+         <h2 style="margin-top: 10px;">Toko Online merupakan sebuah tempat yang menunjang suatu proses pembelian barang melalui internet<br>
              dimana antara penjual dan pembeli tidak pernah bertemu atau melakukan kontak secara fisik<br>
-             yang dimana barang yang diperjualbelikan ditawarkan melalui display dengan gambar yang ada di suatu website atau toko maya. 
+             yang dimana barang yang diperjualbelikan ditawarkan melalui display dengan gambar <br> yang ada di suatu website atau toko maya. 
         </h2>
-         <a href="#team" class="btn-get-started scrollto">Start Shopping Now</a>
+
+<h2 class="pt-5" style= "font-size: 150%; margin-top: -80px; font-weight: bold;">Temukan Produkmu di Kategori &nbsp;   -> &nbsp;  <u><span id="spin"></span></u></h2>
+
+         <a href="#team" class="btn-get-started scrollto">Start Shopping Now<i class="icofont-shopping-cart pl-1"></i></a>
      </div>
  </section><!-- #hero -->
 

@@ -9,6 +9,27 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
+<style>
+#spin {
+  color:white;
+  font-weight: bold;
+  font-size:  150%;
+  
+
+}
+#spin:after {
+  content:"";
+  animation: spin 10s linear infinite;
+}
+@keyframes spin {
+  10% { content:"Perlengkapan Accessories"; }
+  30% { content:"Elektronik"; }
+  60% { content: "Alat Olahraga"; }
+  90% { content: "Pakaian Anak"; }
+  
+}
+</style>
+
     <!-- Favicons -->
     <link href="<?= base_url('vendor/sblanding/') ?>assets/img/favicon.png" rel="icon">
     <link href="<?= base_url('vendor/sblanding/') ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">

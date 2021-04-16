@@ -89,8 +89,24 @@
 
           <!-- Content Row -->
 </div>
+<div class="container mx-auto">
+<img src="<?php echo base_url('assets/uploads/orang.gif') ?>" class="" style="position: relative;" alt="...">
 
+<img src="<?php echo base_url('assets/uploads/orang.gif') ?>" class="float-right" style="position: relative;" alt="...">
 </div>
+
+<br>
+
+<h5 class="text-center"><b>Tonton Video Berikut untuk Meningkatkan Penjualanmu</b></h5><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RHkzKLXMxt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<iframe width="560" height="315" class="float-right ml-3" src="https://www.youtube.com/embed/kQdeIgvrFrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
 <!-- /.container-fluid -->
 
 </div>

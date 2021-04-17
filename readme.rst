@@ -1,4 +1,4 @@
-Try the demo this website at :  http://www.toko-online.lovestoblog.com/
+Try Demo this website at :  http://www.toko-online.lovestoblog.com/
 
 ###################
 What is CodeIgniter

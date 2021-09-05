@@ -1,5 +1,3 @@
-Try Demo this website at :  http://www.toko-online.lovestoblog.com/
-
 ###################
 What is CodeIgniter
 ###################
